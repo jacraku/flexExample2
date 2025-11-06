@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Flexbox Example</title>
+	<style>
+		* {
+			box-sizing: border-box;
+		}
+		body {
+			background-color: #6B6B6B;
+			color: #fff;
+			font-family: Helvetica, Arial, sans-serif;
+		}
+		.wrapper {
+			width: 75%;
+			margin: auto;
+			min-width: 600px;
+			max-width: 1200px;
+			background-color: #F3F3F3;
+		}
+		header {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		h1 {
+			color: #6B6B6B;
+			font-family: "Times New Roman", Georgia, serif;
+			font-weight: bold;
+		}
+		.hero img {
+			width: 100%;
+			
+		}
+		nav {
+			background-color: #000;
+			padding: 10px 20px;
+			display: flex;
+			justify-content: flex-end;
+			gap: 2em;
+			
+		}
+		nav a {
+			color: #fff;
+			text-decoration: none;
+		}
+		nav a:hover {
+			color: #DA3639
+		}
+		main {
+			display: flex;
+		}
+		figure {
+			background-color: #C9C9C9;
+			border-radius: 15px;
+			
+		}
+		main figure figcaption {
+			text-align: center;
+			background-color: #5C5C5C;
+			padding: 10px;
+			border-radius: 0 0 15px 15px;
+				
+		}
+		.story {
+			color: #000;
+		}
+		footer {
+			display: block;
+			text-align: center;
+			background-color: #000;
+			padding: 10px
+			
+		}	
+	</style>
+</head>
+
+<body>
+<div class="wrapper">
+	
+  <header>
+    <div class="logo"><img src="images/logo-placeholder-image.png" alt="Logo Placeholder" width="150px"></div>
+    <h1>This is My Flexbox Example</h1>
+  </header>
+	<nav>
+	<a href="index.html">Home</a>
+	<a href="about.html">About</a>
+	<a href="contact.html">Contact</a>
+	<a href="gallery.html">Gallery</a>
+	</nav>
+  <div class="hero"> <img src="images/pexels-morningtrain-18105.jpg" alt="Mac Stuff"> </div>
+  <main>
+    <figure><img src="images/1-sneaker.png" alt="Sneaker">
+      <figcaption>Mac Sneaker</figcaption>
+    </figure>
+    <div class="story">
+      <h2>History of Colorful Sneakers</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At dolores, praesentium rem explicabo tenetur ratione soluta quis libero iste quidem. Odio enim aut, ipsum rem!</p>
+    </div>
+  </main>
+	<footer>
+		<p>&copy;Copyright &vert; Jack Ousey</p>
+	</footer>
+</div>
+</body>
+</html>
