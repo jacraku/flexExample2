@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Flexbox-Fall25</title>
+	<style>
+		body {
+		background-color: #FFDBAE;
+		font-family: Helvetica, Arial, sans-serif;
+		}
+		.wrapper {
+			width: 75%;
+			margin: auto;
+		}
+		header,
+		footer {
+			background-color: #B40026;
+			padding: 20px;
+			color: #fff;
+			
+		}
+		header h1 {
+			font-size: 3em;
+		}
+		nav {
+			background-color: #9AC6F2;
+			padding: 10px;
+			display: flex;
+			justify-content: center;
+			gap: 1em;
+		}
+		nav a {
+			color: #2A5593;
+			text-decoration: none;
+		}
+		
+		.gallery {
+			background-color: #fff;
+			color: #fff;
+			padding: 20px;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			
+			gap: 1em;
+			
+		}
+		.card {
+			display: grid;
+			flex-direction: column;
+			background-color: #2A5593;
+			
+			justify-content: center;
+			align-items: center;
+			border: 1px solid #000;
+			border-radius: 15px;
+			box-shadow: 5px 5px 5px #5a5a5a;
+			text-align: center;
+		}
+		.card img {
+			background-color: white;
+			width: 100%;
+			border-radius: 15px;
+		}
+		.card h1 {
+			margin-bottom: 0;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header>
+		<h1>Ousey Sneaker Shoppe</h1>
+		</header>
+		<nav>
+		<a href="index.html">Home</a>
+		<a href="about.html">About</a>
+		<a href="gallery.html">Gallery</a>
+		<a href="contact.html">Contact</a></nav>
+	<div class="gallery">
+	<div class="card">
+		<h1>Item</h1>
+		<figure>
+		<img src="images/1-sneaker.png" alt="colorful sneaker">
+		<figcaption>Item Description</figcaption></figure>
+	</div>
+	<div class="card">
+		<h1>Item</h1>
+		<figure>
+		<img src="images/1-sneaker.png" alt="colorful sneaker">
+		<figcaption>Item Description</figcaption></figure>
+	</div>
+	<div class="card">
+		<h1>Item</h1>
+		<figure>
+		<img src="images/1-sneaker.png" alt="colorful sneaker">
+		<figcaption>Item Description</figcaption></figure>
+	</div>
+	<div class="card">
+		<h1>Item</h1>
+		<figure>
+		<img src="images/1-sneaker.png" alt="colorful sneaker">
+		<figcaption>Item Description</figcaption></figure>
+	</div>
+	<div class="card">
+		<h1>Item</h1>
+		<figure>
+		<img src="images/1-sneaker.png" alt="colorful sneaker">
+		<figcaption>Item Description</figcaption></figure>
+	</div>
+	<div class="card">
+		<h1>Item</h1>
+		<figure>
+		<img src="images/1-sneaker.png" alt="colorful sneaker">
+		<figcaption>Item Description</figcaption></figure>
+	</div>
+		</div>
+		<footer>Ousey Sneaker Shoppe &vert; 123 Main Street &vert; Durant, OK</footer>
+		</div>
+</body>
+</html>
